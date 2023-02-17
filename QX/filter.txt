@@ -4,7 +4,6 @@ DOMAIN,adsmind.gdtimg.com,REJECT
 DOMAIN,btrace.qq.com,REJECT
 DOMAIN,ems.youku.com,REJECT
 DOMAIN,g.tbcdn.cn,REJECT
-
 DOMAIN,mtrace.qq.com,REJECT
 DOMAIN,pingjs.qq.com,REJECT
 DOMAIN,pingtas.qq.com,REJECT
