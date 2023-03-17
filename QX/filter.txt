@@ -51,6 +51,7 @@ DOMAIN-KEYWORD,umeng,REJECT
 
 DOMAIN,erebor.douban.com,DIRECT
 
+DOMAIN,www.bing.com,PROXY
 DOMAIN-SUFFIX,bit.ly,PROXY
 DOMAIN-SUFFIX,fbcdn.net,PROXY
 DOMAIN-SUFFIX,fbsbx.com,PROXY
