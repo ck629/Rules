@@ -1,13 +1,11 @@
 自用规则，不适用于大多数人。所有配置均已关闭MITM
 
-Quantumult：先INITIAL.conf替换，再REJECT.conf增加
+Quantumlt X    iCloud关联QX.conf
+资源解析器      https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/resource-parser.js
+REJECT         https://anti-ad.net/surge.txt
 
-Kitsunebi：
-
-Shadowrocket：REJECT更新【https://anti-ad.net/surge.txt】
-
-Quantumult X：配置下载initialx.conf，其余的在各个引用里直接同步
-
-Surge：用Shadowrocket.conf
+Surfboard      1
+Shadowrocket   1
 
 注意unblock里的域名和ip
+https://raw.githubusercontent.com/*
