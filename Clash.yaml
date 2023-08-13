@@ -28,9 +28,9 @@ proxy-groups:
     - subscription
 rule-providers:
   AntiAD:
-    behavior: "classical"
+    behavior: "domain"
     type: http
-    url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/reject.txt"
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt"
     interval: 86400
 rules:
  - RULE-SET,AntiAD,REJECT
