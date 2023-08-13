@@ -26,7 +26,14 @@ proxy-groups:
    interval: 1200
    use:
     - subscription
+rule-providers:
+  AntiAD:
+    behavior: "classical"
+    type: http
+    url: "https://anti-ad.net/surge.txt"
+    interval: 86400
 rules:
+ - RULE-SET,AntiAD,REJECT
  - DOMAIN,ads.api.vungle.com,REJECT
  - DOMAIN,adsmind.apdcdn.tc.qq.com,REJECT
  - DOMAIN,adsmind.gdtimg.com,REJECT
