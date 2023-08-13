@@ -10,7 +10,7 @@ dns:
    - 223.5.5.5
    - 114.114.114.114
    - 8.8.8.8
-ipv6: false 
+ipv6: true 
 proxy-providers:
  subscription:
   type: http
