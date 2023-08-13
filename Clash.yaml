@@ -14,7 +14,7 @@ ipv6: false
 proxy-providers:
  subscription:
   type: http
-  url: "url"
+  url: "subscription url"
   interval: 43200
   health-check:
    enable: true
@@ -136,23 +136,23 @@ rules:
  - IP-CIDR,149.154.160.0/20,PROXY,no-resolve
  - DOMAIN-KEYWORD,youtube,PROXY
  - DOMAIN,yt3.ggpht.com,PROXY
- - DOMAIN-SUFFIXgooglevideo.com,PROXY
- - DOMAIN-SUFFIXgvt2.com,PROXY
- - DOMAIN-SUFFIXyoutu.be,PROXY
- - DOMAIN-SUFFIXytimg.com,PROXY
- - DOMAIN-SUFFIXlin.ee,PROXY
- - DOMAIN-SUFFIXline.me,PROXY
- - DOMAIN-SUFFIXline.naver.jp,PROXY
- - DOMAIN-SUFFIXline-apps.com,PROXY
- - DOMAIN-SUFFIXline-cdn.net,PROXY
- - DOMAIN-SUFFIXline-scdn.net,PROXY
- - DOMAIN-SUFFIXnhncorp.jp,PROXY
- - DOMAIN-SUFFIXriotcdn.net,PROXY
- - DOMAIN-SUFFIXwr.pvp.net,PROXY
- - DOMAIN-SUFFIXriotgames.com,PROXY
- - DOMAIN-SUFFIXfanatical.com,PROXY
- - DOMAIN-SUFFIXhumblebundle.com,PROXY
- - DOMAIN-SUFFIXsteamstatic.com,PROXY
+ - DOMAIN-SUFFIX,googlevideo.com,PROXY
+ - DOMAIN-SUFFIX,gvt2.com,PROXY
+ - DOMAIN-SUFFIX,youtu.be,PROXY
+ - DOMAIN-SUFFIX,ytimg.com,PROXY
+ - DOMAIN-SUFFIX,lin.ee,PROXY
+ - DOMAIN-SUFFIX,line.me,PROXY
+ - DOMAIN-SUFFIX,line.naver.jp,PROXY
+ - DOMAIN-SUFFIX,line-apps.com,PROXY
+ - DOMAIN-SUFFIX,line-cdn.net,PROXY
+ - DOMAIN-SUFFIX,line-scdn.net,PROXY
+ - DOMAIN-SUFFIX,nhncorp.jp,PROXY
+ - DOMAIN-SUFFIX,riotcdn.net,PROXY
+ - DOMAIN-SUFFIX,wr.pvp.net,PROXY
+ - DOMAIN-SUFFIX,riotgames.com,PROXY
+ - DOMAIN-SUFFIX,fanatical.com,PROXY
+ - DOMAIN-SUFFIX,humblebundle.com,PROXY
+ - DOMAIN-SUFFIX,steamstatic.com,PROXY
  - IP-CIDR,103.4.96.0/22,PROXY,no-resolve
  - IP-CIDR,129.134.0.0/17,PROXY,no-resolve
  - IP-CIDR,157.240.0.0/17,PROXY,no-resolve
@@ -183,10 +183,3 @@ rules:
  - IP-CIDR,203.104.128.0/20,PROXY,no-resolve
  - IP-CIDR,203.174.66.64/26,PROXY,no-resolve
  - IP-CIDR,203.174.77.0/24,PROXY,no-resolve
-
-#rule-providers:
-# reject:
-#  type: http
-#   behavior: domain
-#   url: "https://anti-ad.net/domains.txt"
-#   interval: 86400
