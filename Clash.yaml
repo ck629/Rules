@@ -1,6 +1,5 @@
-port: 56789
-socks-port: 56788
-allow-lan: true
+mixed-port: 56789
+allow-lan: false
 mode: Rule
 log-level: error
 dns:
@@ -10,7 +9,7 @@ dns:
    - 223.5.5.5
    - 114.114.114.114
    - 8.8.8.8
-ipv6: true 
+ipv6: false
 proxy-providers:
  subscription:
   type: http
