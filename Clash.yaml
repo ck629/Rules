@@ -30,7 +30,7 @@ rule-providers:
   AntiAD:
     behavior: "classical"
     type: http
-    url: "https://anti-ad.net/surge.txt"
+    url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/reject.txt"
     interval: 86400
 rules:
  - RULE-SET,AntiAD,REJECT
