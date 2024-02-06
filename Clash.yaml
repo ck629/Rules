@@ -84,13 +84,16 @@ rules:
  - DOMAIN-KEYWORD,cnzz,REJECT
  - DOMAIN-KEYWORD,inmobi,REJECT
  - DOMAIN-KEYWORD,umeng,REJECT
+ - DOMAIN-SET,https://anti-ad.net/surge2.txt,REJECT
  - DOMAIN,erebor.douban.com,DIRECT
+ - DOMAIN-SUFFIX,t17.top,DIRECT
  - DOMAIN,www.bing.com,PROXY
  - DOMAIN-SUFFIX,bit.ly,PROXY
  - DOMAIN-SUFFIX,civitai.com,PROXY
  - DOMAIN-SUFFIX,fbcdn.net,PROXY
  - DOMAIN-SUFFIX,fbsbx.com,PROXY
  - DOMAIN-SUFFIX,goo.gl,PROXY
+ - DOMAIN-SUFFIX,gravatar.com,PROXY
  - DOMAIN-SUFFIX,gstatic.com,PROXY
  - DOMAIN-SUFFIX,ishowsapp.com,PROXY
  - DOMAIN-SUFFIX,jellyfin.org,PROXY
@@ -98,11 +101,13 @@ rules:
  - DOMAIN-SUFFIX,openai.com,PROXY
  - DOMAIN-SUFFIX,playstation.com,PROXY
  - DOMAIN-SUFFIX,playstation.net,PROXY
+ - DOMAIN-SUFFIX,pokemon.com,PROXY
  - DOMAIN-SUFFIX,pokemon-home.com,PROXY
  - DOMAIN-SUFFIX,pokemon-unitepgame.com,PROXY
  - DOMAIN-SUFFIX,redd.it,PROXY
  - DOMAIN-SUFFIX,rlcdn.com,PROXY
  - DOMAIN-SUFFIX,rockstargames.com,PROXY
+ - DOMAIN-SUFFIX,simplex.chat,PROXY
  - DOMAIN-SUFFIX,sonyentertainmentnetwork.com,PROXY
  - DOMAIN-SUFFIX,ssrshare.com,PROXY
  - DOMAIN-SUFFIX,steamcommunity.com,PROXY
@@ -113,6 +118,8 @@ rules:
  - DOMAIN-SUFFIX,t.co,PROXY
  - DOMAIN-SUFFIX,twimg.com,PROXY
  - DOMAIN-SUFFIX,v2ex.com,PROXY
+ - DOMAIN-SUFFIX,wordpress.com,PROXY
+ - DOMAIN-KEYWORD,discord,PROXY
  - DOMAIN-KEYWORD,duckduckgo,PROXY
  - DOMAIN-KEYWORD,facebook,PROXY
  - DOMAIN-KEYWORD,github,PROXY
@@ -124,14 +131,14 @@ rules:
  - DOMAIN-KEYWORD,sharepoint,PROXY
  - DOMAIN-KEYWORD,twitter,PROXY
  - DOMAIN-KEYWORD,wikipedia,PROXY
- - PROCESS-NAME,Ashpalt*,PROXY
- - PROCESS-NAME,CodeHub*,PROXY
- - PROCESS-NAME,iShows?TV*,PROXY
- - PROCESS-NAME,Nicegram*,PROXY
- - PROCESS-NAME,OneDrive*,PROXY
- - PROCESS-NAME,PayPal*,PROXY
- - PROCESS-NAME,pokemonhome*,PROXY
- - PROCESS-NAME,Steam*,PROXY
+ - USER-AGENT,Ashpalt*,PROXY
+ - USER-AGENT,CodeHub*,PROXY
+ - USER-AGENT,iShows?TV*,PROXY
+ - USER-AGENT,Nicegram*,PROXY
+ - USER-AGENT,OneDrive*,PROXY
+ - USER-AGENT,PayPal*,PROXY
+ - USER-AGENT,pokemonhome*,PROXY
+ - USER-AGENT,Steam*,PROXY
  - DOMAIN-SUFFIX,t.me,PROXY
  - DOMAIN-SUFFIX,tdesktop.com,PROXY
  - DOMAIN-SUFFIX,telegra.ph,PROXY
@@ -140,25 +147,25 @@ rules:
  - IP-CIDR,91.108.0.0/16,PROXY,no-resolve
  - IP-CIDR,109.239.140.0/24,PROXY,no-resolve
  - IP-CIDR,149.154.160.0/20,PROXY,no-resolve
- - DOMAIN-KEYWORD,youtube,PROXY
+ - HOST-KEYWORD,youtube,PROXY
  - DOMAIN,yt3.ggpht.com,PROXY
- - DOMAIN-SUFFIX,googlevideo.com,PROXY
- - DOMAIN-SUFFIX,gvt2.com,PROXY
- - DOMAIN-SUFFIX,youtu.be,PROXY
- - DOMAIN-SUFFIX,ytimg.com,PROXY
- - DOMAIN-SUFFIX,lin.ee,PROXY
- - DOMAIN-SUFFIX,line.me,PROXY
- - DOMAIN-SUFFIX,line.naver.jp,PROXY
- - DOMAIN-SUFFIX,line-apps.com,PROXY
- - DOMAIN-SUFFIX,line-cdn.net,PROXY
- - DOMAIN-SUFFIX,line-scdn.net,PROXY
- - DOMAIN-SUFFIX,nhncorp.jp,PROXY
- - DOMAIN-SUFFIX,riotcdn.net,PROXY
- - DOMAIN-SUFFIX,wr.pvp.net,PROXY
- - DOMAIN-SUFFIX,riotgames.com,PROXY
- - DOMAIN-SUFFIX,fanatical.com,PROXY
- - DOMAIN-SUFFIX,humblebundle.com,PROXY
- - DOMAIN-SUFFIX,steamstatic.com,PROXY
+ - HOST-SUFFIX,googlevideo.com,PROXY
+ - HOST-SUFFIX,gvt2.com,PROXY
+ - HOST-SUFFIX,youtu.be,PROXY
+ - HOST-SUFFIX,ytimg.com,PROXY
+ - HOST-SUFFIX,lin.ee,PROXY
+ - HOST-SUFFIX,line.me,PROXY
+ - HOST-SUFFIX,line.naver.jp,PROXY
+ - HOST-SUFFIX,line-apps.com,PROXY
+ - HOST-SUFFIX,line-cdn.net,PROXY
+ - HOST-SUFFIX,line-scdn.net,PROXY
+ - HOST-SUFFIX,nhncorp.jp,PROXY
+ - HOST-SUFFIX,riotcdn.net,PROXY
+ - HOST-SUFFIX,wr.pvp.net,PROXY
+ - HOST-SUFFIX,riotgames.com,PROXY
+ - HOST-SUFFIX,fanatical.com,PROXY
+ - HOST-SUFFIX,humblebundle.com,PROXY
+ - HOST-SUFFIX,steamstatic.com,PROXY
  - IP-CIDR,103.4.96.0/22,PROXY,no-resolve
  - IP-CIDR,129.134.0.0/17,PROXY,no-resolve
  - IP-CIDR,157.240.0.0/17,PROXY,no-resolve
