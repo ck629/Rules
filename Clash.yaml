@@ -1,28 +1,29 @@
 mixed-port: 56789
-allow-lan: false
+allow-lan: true
 mode: Rule
 log-level: error
 dns:
  enable: true
  listen: :53
  nameserver:
-   - 223.5.5.5
-   - 114.114.114.114
-   - 8.8.8.8
+   - quic://dns.adguard-dns.com
+   - tls://dns.adguard-dns.com
+   - tls://dns.alidns.com
+   - tls://dot.pub
 ipv6: false
 proxy-providers:
  subscription:
   type: http
-  url: "subscription url"
+  url: "https://url"
   interval: 43200
   health-check:
    enable: true
    interval: 600
-   url: http://www.gstatic.com/generate_204
+   url: http://www.google.com/generate_204
 proxy-groups:
  - name: PROXY
    type: url-test
-   url: http://www.gstatic.com/generate_204
+   url: http://www.google.com/generate_204
    interval: 1200
    use:
     - subscription
@@ -85,12 +86,10 @@ rules:
  - DOMAIN-KEYWORD,inmobi,REJECT
  - DOMAIN-KEYWORD,umeng,REJECT
  - DOMAIN,erebor.douban.com,DIRECT
- - DOMAIN-SUFFIX,t17.top,DIRECT
- - DOMAIN-SUFFIX,z-lib.id,REJECT
- - DOMAIN-SUFFIX,z-lib.io,REJECT
  - DOMAIN-SUFFIX,singlelogin.se,PROXY
  - DOMAIN-SUFFIX,z-library.se,PROXY
  - DOMAIN,www.bing.com,PROXY
+ - DOMAIN-SUFFIX,adtidy.org,PROXY
  - DOMAIN-SUFFIX,bit.ly,PROXY
  - DOMAIN-SUFFIX,civitai.com,PROXY
  - DOMAIN-SUFFIX,fbcdn.net,PROXY
@@ -122,6 +121,7 @@ rules:
  - DOMAIN-SUFFIX,twimg.com,PROXY
  - DOMAIN-SUFFIX,v2ex.com,PROXY
  - DOMAIN-SUFFIX,wordpress.com,PROXY
+ - DOMAIN-KEYWORD,apkpure,PROXY
  - DOMAIN-KEYWORD,discord,PROXY
  - DOMAIN-KEYWORD,duckduckgo,PROXY
  - DOMAIN-KEYWORD,facebook,PROXY
