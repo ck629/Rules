@@ -6,8 +6,6 @@ dns:
  enable: true
  listen: :53
  nameserver:
-   - quic://dns.adguard-dns.com
-   - tls://dns.adguard-dns.com
    - tls://dns.alidns.com
    - tls://dot.pub
 ipv6: false
