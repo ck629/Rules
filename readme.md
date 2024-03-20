@@ -15,4 +15,4 @@
 
 注意unblock里的域名和ip
 
-https://raw.githubusercontent.com/*
+https://raw.githubusercontent.com/ck629/Rules/master/*
