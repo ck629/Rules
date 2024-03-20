@@ -8,6 +8,8 @@ dns:
  nameserver:
    - tls://dns.alidns.com
    - tls://dot.pub
+   - https://dns.alidns.com/dns-query
+   - https://doh.pub/dns-query
 ipv6: false
 proxy-providers:
  subscription:
@@ -83,7 +85,12 @@ rules:
  - DOMAIN-KEYWORD,cnzz,REJECT
  - DOMAIN-KEYWORD,inmobi,REJECT
  - DOMAIN-KEYWORD,umeng,REJECT
- - DOMAIN,erebor.douban.com,DIRECT
+ - DOMAIN-SUFFIX,z-lib.id,REJECT
+ - DOMAIN-SUFFIX,z-lib.io,REJECT
+ - DOMAIN,app.chat.xiaomi.net,DIRECT
+ - IP-CIDR,10.0.0.0/8,DIRECT
+ - IP-CIDR,172.16.0.0/12,DIRECT
+ - IP-CIDR,192.168.0.0/16,DIRECT
  - DOMAIN-SUFFIX,singlelogin.se,PROXY
  - DOMAIN-SUFFIX,z-library.se,PROXY
  - DOMAIN,www.bing.com,PROXY
@@ -92,9 +99,11 @@ rules:
  - DOMAIN-SUFFIX,civitai.com,PROXY
  - DOMAIN-SUFFIX,fbcdn.net,PROXY
  - DOMAIN-SUFFIX,fbsbx.com,PROXY
+ - DOMAIN-SUFFIX,f-droid.org,PROXY
  - DOMAIN-SUFFIX,goo.gl,PROXY
  - DOMAIN-SUFFIX,gravatar.com,PROXY
  - DOMAIN-SUFFIX,gstatic.com,PROXY
+ - DOMAIN-SUFFIX,hub.docker.com,PROXY
  - DOMAIN-SUFFIX,ishowsapp.com,PROXY
  - DOMAIN-SUFFIX,jellyfin.org,PROXY
  - DOMAIN-SUFFIX,mail.com,PROXY
@@ -119,7 +128,6 @@ rules:
  - DOMAIN-SUFFIX,twimg.com,PROXY
  - DOMAIN-SUFFIX,v2ex.com,PROXY
  - DOMAIN-SUFFIX,wordpress.com,PROXY
- - DOMAIN-KEYWORD,apkpure,PROXY
  - DOMAIN-KEYWORD,discord,PROXY
  - DOMAIN-KEYWORD,duckduckgo,PROXY
  - DOMAIN-KEYWORD,facebook,PROXY
@@ -144,6 +152,7 @@ rules:
  - DOMAIN,yt3.ggpht.com,PROXY
  - DOMAIN-SUFFIX,googlevideo.com,PROXY
  - DOMAIN-SUFFIX,gvt2.com,PROXY
+ - DOMAIN-SUFFIX,mypikpak.com,PROXY
  - DOMAIN-SUFFIX,youtu.be,PROXY
  - DOMAIN-SUFFIX,ytimg.com,PROXY
  - DOMAIN-SUFFIX,lin.ee,PROXY
@@ -189,3 +198,4 @@ rules:
  - IP-CIDR,203.104.128.0/20,PROXY,no-resolve
  - IP-CIDR,203.174.66.64/26,PROXY,no-resolve
  - IP-CIDR,203.174.77.0/24,PROXY,no-resolve
+ - IP-CIDR,146.235.200.246/32,PROXY,no-resolve
