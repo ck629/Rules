@@ -106,6 +106,7 @@ rules:
  - DOMAIN-SUFFIX,hub.docker.com,PROXY
  - DOMAIN-SUFFIX,ishowsapp.com,PROXY
  - DOMAIN-SUFFIX,jellyfin.org,PROXY
+ - DOMAIN-SUFFIX,joplinapp.org,PROXY
  - DOMAIN-SUFFIX,mail.com,PROXY
  - DOMAIN-SUFFIX,openai.com,PROXY
  - DOMAIN-SUFFIX,playstation.com,PROXY
