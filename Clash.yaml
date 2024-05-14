@@ -1,7 +1,7 @@
 mixed-port: 56789
 allow-lan: true
 mode: Rule
-log-level: error
+log-level: info
 dns:
  enable: true
  listen: :53
@@ -10,7 +10,7 @@ dns:
    - tls://dot.pub
    - https://dns.alidns.com/dns-query
    - https://doh.pub/dns-query
-ipv6: false
+ipv6: true
 proxy-providers:
  subscription:
   type: http
@@ -22,7 +22,7 @@ proxy-providers:
    url: http://www.google.com/generate_204
 proxy-groups:
  - name: PROXY
-   type: url-test
+   type: select
    url: http://www.google.com/generate_204
    interval: 1200
    use:
