@@ -101,6 +101,7 @@ rules:
  - DOMAIN-SUFFIX,adtidy.org,PROXY
  - DOMAIN-SUFFIX,bit.ly,PROXY
  - DOMAIN-SUFFIX,civitai.com,PROXY
+ - DOMAIN-SUFFIX,chatgpt.com,PROXY
  - DOMAIN-SUFFIX,fbcdn.net,PROXY
  - DOMAIN-SUFFIX,fbsbx.com,PROXY
  - DOMAIN-SUFFIX,f-droid.org,PROXY
