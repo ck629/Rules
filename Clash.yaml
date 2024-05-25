@@ -122,6 +122,7 @@ rules:
  - DOMAIN-SUFFIX,pokemon-home.com,PROXY
  - DOMAIN-SUFFIX,pokemon-unitepgame.com,PROXY
  - DOMAIN-SUFFIX,pypi.org,PROXY
+ - DOMAIN-SUFFIX,pythonhosted.org,PROXY
  - DOMAIN-SUFFIX,redd.it,PROXY
  - DOMAIN-SUFFIX,rlcdn.com,PROXY
  - DOMAIN-SUFFIX,rockstargames.com,PROXY
