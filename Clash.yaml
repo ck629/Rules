@@ -95,8 +95,10 @@ rules:
  - IP-CIDR,10.0.0.0/8,DIRECT
  - IP-CIDR,172.16.0.0/12,DIRECT
  - IP-CIDR,192.168.0.0/16,DIRECT
- - DOMAIN-SUFFIX,singlelogin.se,PROXY
- - DOMAIN-SUFFIX,z-library.se,PROXY
+ - DOMAIN-KEYWORD,singlelogin.,PROXY
+ - DOMAIN-KEYWORD,z-library.,PROXY
+ - DOMAIN-KEYWORD,zlibrary-,PROXY
+ - DOMAIN-KEYWORD,1lib.,PROXY
  - DOMAIN,www.bing.com,PROXY
  - DOMAIN-SUFFIX,adtidy.org,PROXY
  - DOMAIN-SUFFIX,bit.ly,PROXY
@@ -119,6 +121,7 @@ rules:
  - DOMAIN-SUFFIX,pokemon.com,PROXY
  - DOMAIN-SUFFIX,pokemon-home.com,PROXY
  - DOMAIN-SUFFIX,pokemon-unitepgame.com,PROXY
+ - DOMAIN-SUFFIX,pypi.org,PROXY
  - DOMAIN-SUFFIX,redd.it,PROXY
  - DOMAIN-SUFFIX,rlcdn.com,PROXY
  - DOMAIN-SUFFIX,rockstargames.com,PROXY
