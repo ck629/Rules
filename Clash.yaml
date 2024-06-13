@@ -107,6 +107,7 @@ rules:
  - DOMAIN-SUFFIX,fbcdn.net,PROXY
  - DOMAIN-SUFFIX,fbsbx.com,PROXY
  - DOMAIN-SUFFIX,f-droid.org,PROXY
+ - DOMAIN-SUFFIX,gog.com,PROXY
  - DOMAIN-SUFFIX,goo.gl,PROXY
  - DOMAIN-SUFFIX,gravatar.com,PROXY
  - DOMAIN-SUFFIX,gstatic.com,PROXY
