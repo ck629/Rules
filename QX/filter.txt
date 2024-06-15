@@ -65,7 +65,7 @@ DOMAIN,www.bing.com,PROXY
 DOMAIN-SUFFIX,adtidy.org,PROXY
 DOMAIN-SUFFIX,bit.ly,PROXY
 DOMAIN-SUFFIX,civitai.com,PROXY
-DOMAIN-SUFFIX,chatgpt.com,PROXY
+DOMAIN-SUFFIX,chatgpt.com,GPT
 DOMAIN-SUFFIX,fbcdn.net,PROXY
 DOMAIN-SUFFIX,fbsbx.com,PROXY
 DOMAIN-SUFFIX,f-droid.org,PROXY
@@ -78,7 +78,7 @@ DOMAIN-SUFFIX,ishowsapp.com,PROXY
 DOMAIN-SUFFIX,jellyfin.org,PROXY
 DOMAIN-SUFFIX,joplinapp.org,PROXY
 DOMAIN-SUFFIX,mail.com,PROXY
-DOMAIN-SUFFIX,openai.com,PROXY
+DOMAIN-SUFFIX,openai.com,GPT
 DOMAIN-SUFFIX,playstation.com,PROXY
 DOMAIN-SUFFIX,playstation.net,PROXY
 DOMAIN-SUFFIX,pokemon.com,PROXY
