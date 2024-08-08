@@ -1,4 +1,4 @@
-mixed-port: 60000
+mixed-port: 56789
 allow-lan: true
 mode: Rule
 log-level: info
