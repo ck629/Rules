@@ -31,7 +31,7 @@ proxy-groups:
    type: select
    url: http://www.google.com/generate_204
    interval: 900
-      use:
+   use:
     - subscription
 rule-providers:
   AntiAD:
