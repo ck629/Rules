@@ -166,7 +166,6 @@ rules:
  - DOMAIN-SUFFIX,wordpress.com,PROXY
  - DOMAIN-SUFFIX,x.com,PROXY
  - DOMAIN-SUFFIX,xiaoya.pro,PROXY
- - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,PROXY
  - DOMAIN-KEYWORD,discord,PROXY
  - DOMAIN-KEYWORD,duckduckgo,PROXY
  - DOMAIN-KEYWORD,facebook,PROXY
@@ -180,6 +179,7 @@ rules:
  - DOMAIN-KEYWORD,sharepoint,PROXY
  - DOMAIN-KEYWORD,twitter,PROXY
  - DOMAIN-KEYWORD,wikipedia,PROXY
+ 
  - DOMAIN-SUFFIX,t.me,PROXY
  - DOMAIN-SUFFIX,tdesktop.com,PROXY
  - DOMAIN-SUFFIX,telegra.ph,PROXY
@@ -188,6 +188,7 @@ rules:
  - IP-CIDR,91.108.0.0/16,PROXY,no-resolve
  - IP-CIDR,109.239.140.0/24,PROXY,no-resolve
  - IP-CIDR,149.154.160.0/20,PROXY,no-resolve
+ 
  - DOMAIN-KEYWORD,youtube,PROXY
  - DOMAIN,yt3.ggpht.com,PROXY
  - DOMAIN-SUFFIX,googlevideo.com,PROXY
@@ -195,6 +196,7 @@ rules:
  - DOMAIN-SUFFIX,mypikpak.com,PROXY
  - DOMAIN-SUFFIX,youtu.be,PROXY
  - DOMAIN-SUFFIX,ytimg.com,PROXY
+ 
  - DOMAIN-SUFFIX,lin.ee,PROXY
  - DOMAIN-SUFFIX,line.me,PROXY
  - DOMAIN-SUFFIX,line.naver.jp,PROXY
@@ -202,6 +204,7 @@ rules:
  - DOMAIN-SUFFIX,line-cdn.net,PROXY
  - DOMAIN-SUFFIX,line-scdn.net,PROXY
  - DOMAIN-SUFFIX,nhncorp.jp,PROXY
+ 
  - DOMAIN-SUFFIX,riotcdn.net,PROXY
  - DOMAIN-SUFFIX,wr.pvp.net,PROXY
  - DOMAIN-SUFFIX,riotgames.com,PROXY
