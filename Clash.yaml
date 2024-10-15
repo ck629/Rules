@@ -94,7 +94,9 @@ rules:
  - DOMAIN-KEYWORD,umeng,REJECT
  - DOMAIN-SUFFIX,z-lib.id,REJECT
  - DOMAIN-SUFFIX,z-lib.io,REJECT
+ 
  - DOMAIN,app.chat.xiaomi.net,DIRECT
+ - DOMAIN-SUFFIX,weixin.qq.com,DIRECT
  - IP-CIDR,10.0.0.0/8,DIRECT
  - IP-CIDR,172.16.0.0/12,DIRECT
  - IP-CIDR,192.168.0.0/16,DIRECT
@@ -104,37 +106,44 @@ rules:
  - DOMAIN-SUFFIX,bamgrid.com,PROXY
  - DOMAIN-SUFFIX,media.dssott.com,PROXY
  - DOMAIN-SUFFIX,dssott.qwilted-cds.cqloud.com,PROXY
- 
  - DOMAIN-KEYWORD,singlelogin.,PROXY
  - DOMAIN-KEYWORD,z-library.,PROXY
  - DOMAIN-KEYWORD,zlibrary-,PROXY
  - DOMAIN-KEYWORD,1lib.,PROXY
 
  - DOMAIN,al.chirmyram.com,PROXY
- - DOMAIN,docker.xiaoya.pro,PROXY
+ - DOMAIN,my.zerotier.com,PROXY
  - DOMAIN,pkgs.tailscale.com,PROXY
  - DOMAIN,www.bing.com,PROXY
+ - DOMAIN-SUFFIX,aaaa.gay,PROXY
  - DOMAIN-SUFFIX,adtidy.org,PROXY
+ - DOMAIN-SUFFIX,appinn.com,PROXY
+ - DOMAIN-SUFFIX,appinn.net,PROXY
  - DOMAIN-SUFFIX,bit.ly,PROXY
  - DOMAIN-SUFFIX,civitai.com,PROXY
  - DOMAIN-SUFFIX,chatgpt.com,PROXY
  - DOMAIN-SUFFIX,docker.com,PROXY
+ - DOMAIN-SUFFIX,docker.io,PROXY
  - DOMAIN-SUFFIX,ecosia.org,PROXY
  - DOMAIN-SUFFIX,fbcdn.net,PROXY
  - DOMAIN-SUFFIX,fbsbx.com,PROXY
  - DOMAIN-SUFFIX,f-droid.org,PROXY
- - DOMAIN-SUFFIX,gog.com,PROXY
+ - DOMAIN-SUFFIX,gitlab.com,PROXY
  - DOMAIN-SUFFIX,goo.gl,PROXY
+ - DOMAIN-SUFFIX,gog.com,PROXY
  - DOMAIN-SUFFIX,gravatar.com,PROXY
  - DOMAIN-SUFFIX,gstatic.com,PROXY
+ - DOMAIN-SUFFIX,har01d.org,PROXY
+ - DOMAIN-SUFFIX,huggingface.co,PROXY
  - DOMAIN-SUFFIX,ishowsapp.com,PROXY
+ - DOMAIN-SUFFIX,itch.io,PROXY
+ - DOMAIN-SUFFIX,imazing.com,PROXY
  - DOMAIN-SUFFIX,imdb.com,PROXY
  - DOMAIN-SUFFIX,jellyfin.org,PROXY
  - DOMAIN-SUFFIX,joplinapp.org,PROXY
+ - DOMAIN-SUFFIX,linux.do,PROXY
  - DOMAIN-SUFFIX,mail.com,PROXY
  - DOMAIN-SUFFIX,openai.com,PROXY
- - DOMAIN-SUFFIX,playstation.com,PROXY
- - DOMAIN-SUFFIX,playstation.net,PROXY
  - DOMAIN-SUFFIX,pokemon.com,PROXY
  - DOMAIN-SUFFIX,pokemon-home.com,PROXY
  - DOMAIN-SUFFIX,pokemon-unitepgame.com,PROXY
@@ -144,7 +153,6 @@ rules:
  - DOMAIN-SUFFIX,rlcdn.com,PROXY
  - DOMAIN-SUFFIX,rockstargames.com,PROXY
  - DOMAIN-SUFFIX,simplex.chat,PROXY
- - DOMAIN-SUFFIX,sonyentertainmentnetwork.com,PROXY
  - DOMAIN-SUFFIX,ssrshare.com,PROXY
  - DOMAIN-SUFFIX,steamcommunity.com,PROXY
  - DOMAIN-SUFFIX,steampowered.com,PROXY
@@ -154,8 +162,10 @@ rules:
  - DOMAIN-SUFFIX,t.co,PROXY
  - DOMAIN-SUFFIX,twimg.com,PROXY
  - DOMAIN-SUFFIX,v2ex.com,PROXY
+ - DOMAIN-SUFFIX,waterfox.net,PROXY
  - DOMAIN-SUFFIX,wordpress.com,PROXY
  - DOMAIN-SUFFIX,x.com,PROXY
+ - DOMAIN-SUFFIX,xiaoya.pro,PROXY
  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,PROXY
  - DOMAIN-KEYWORD,discord,PROXY
  - DOMAIN-KEYWORD,duckduckgo,PROXY
@@ -163,6 +173,7 @@ rules:
  - DOMAIN-KEYWORD,github,PROXY
  - DOMAIN-KEYWORD,google,PROXY
  - DOMAIN-KEYWORD,instagram,PROXY
+ - DOMAIN-KEYWORD,notion,PROXY
  - DOMAIN-KEYWORD,onedrive,PROXY
  - DOMAIN-KEYWORD,paypal,PROXY
  - DOMAIN-KEYWORD,reddit,PROXY
@@ -197,6 +208,7 @@ rules:
  - DOMAIN-SUFFIX,fanatical.com,PROXY
  - DOMAIN-SUFFIX,humblebundle.com,PROXY
  - DOMAIN-SUFFIX,steamstatic.com,PROXY
+ 
  - IP-CIDR,103.4.96.0/22,PROXY,no-resolve
  - IP-CIDR,129.134.0.0/17,PROXY,no-resolve
  - IP-CIDR,157.240.0.0/17,PROXY,no-resolve
