@@ -129,8 +129,8 @@ rules:
  - DOMAIN-SUFFIX,fbsbx.com,PROXY
  - DOMAIN-SUFFIX,f-droid.org,PROXY
  - DOMAIN-SUFFIX,gitlab.com,PROXY
- - DOMAIN-SUFFIX,goo.gl,PROXY
  - DOMAIN-SUFFIX,gog.com,PROXY
+ - DOMAIN-SUFFIX,goo.gl,PROXY
  - DOMAIN-SUFFIX,gravatar.com,PROXY
  - DOMAIN-SUFFIX,gstatic.com,PROXY
  - DOMAIN-SUFFIX,har01d.org,PROXY
