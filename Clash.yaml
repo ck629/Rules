@@ -117,8 +117,6 @@ rules:
  - DOMAIN,www.bing.com,PROXY
  - DOMAIN-SUFFIX,aaaa.gay,PROXY
  - DOMAIN-SUFFIX,adtidy.org,PROXY
- - DOMAIN-SUFFIX,appinn.com,PROXY
- - DOMAIN-SUFFIX,appinn.net,PROXY
  - DOMAIN-SUFFIX,bit.ly,PROXY
  - DOMAIN-SUFFIX,civitai.com,PROXY
  - DOMAIN-SUFFIX,chatgpt.com,PROXY
@@ -166,6 +164,7 @@ rules:
  - DOMAIN-SUFFIX,wordpress.com,PROXY
  - DOMAIN-SUFFIX,x.com,PROXY
  - DOMAIN-SUFFIX,xiaoya.pro,PROXY
+ - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,PROXY
  - DOMAIN-KEYWORD,discord,PROXY
  - DOMAIN-KEYWORD,duckduckgo,PROXY
  - DOMAIN-KEYWORD,facebook,PROXY
