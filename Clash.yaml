@@ -129,6 +129,8 @@ rules:
  - DOMAIN-SUFFIX,gstatic.com,PROXY
  - DOMAIN-SUFFIX,gvt2.com,PROXY
  - DOMAIN-SUFFIX,har01d.org,PROXY
+ - DOMAIN-SUFFIX,hp.com,PROXY
+ - DOMAIN-SUFFIX,hpeprint.com,PROXY
  - DOMAIN-SUFFIX,huggingface.co,PROXY
  - DOMAIN-SUFFIX,humblebundle.com,PROXY
  - DOMAIN-SUFFIX,imazing.com,PROXY
