@@ -149,10 +149,13 @@ rules:
  - DOMAIN-SUFFIX,mail.com,PROXY
  - DOMAIN-SUFFIX,metacubex.one,PROXY
  - DOMAIN-SUFFIX,mypikpak.com,PROXY
+ - DOMAIN-SUFFIX,mypikpak.net,PROXY
  - DOMAIN-SUFFIX,my-aime.net,PROXY
  - DOMAIN-SUFFIX,nhncorp.jp,PROXY
  - DOMAIN-SUFFIX,openai.com,PROXY
  - DOMAIN-SUFFIX,owhealth.com,PROXY
+ - DOMAIN-SUFFIX,pikpak.me,PROXY
+ - DOMAIN-SUFFIX,pikpakdrive.com,PROXY
  - DOMAIN-SUFFIX,playstation.com,PROXY
  - DOMAIN-SUFFIX,playstation.net,PROXY
  - DOMAIN-SUFFIX,pokemon.com,PROXY
