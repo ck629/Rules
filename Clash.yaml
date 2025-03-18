@@ -116,6 +116,7 @@ rules:
  - DOMAIN-SUFFIX,civitai.com,PROXY
  - DOMAIN-SUFFIX,docker.com,PROXY
  - DOMAIN-SUFFIX,docker.io,PROXY
+ - DOMAIN-SUFFIX,dropbox.com,PROXY
  - DOMAIN-SUFFIX,ecosia.org,PROXY
  - DOMAIN-SUFFIX,fanatical.com,PROXY
  - DOMAIN-SUFFIX,fbcdn.net,PROXY
