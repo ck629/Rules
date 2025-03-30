@@ -97,6 +97,7 @@ rules:
 
  - DOMAIN,app.chat.xiaomi.net,DIRECT
  - DOMAIN-SUFFIX,music.163.com,DIRECT
+ - DOMAIN-SUFFIX,music.126.net,DIRECT
 
  - DOMAIN-KEYWORD,singlelogin.,PROXY
  - DOMAIN-KEYWORD,z-library.,PROXY
@@ -111,12 +112,13 @@ rules:
  - DOMAIN,yt3.ggpht.com,PROXY
  - DOMAIN-SUFFIX,adtidy.org,PROXY
  - DOMAIN-SUFFIX,apkcombo.com,PROXY
+ - DOMAIN-SUFFIX,apkmirror.com,PROXY
+ - DOMAIN-SUFFIX,archive.org,PROXY
  - DOMAIN-SUFFIX,bit.ly,PROXY
  - DOMAIN-SUFFIX,chatgpt.com,PROXY
  - DOMAIN-SUFFIX,civitai.com,PROXY
  - DOMAIN-SUFFIX,docker.com,PROXY
  - DOMAIN-SUFFIX,docker.io,PROXY
- - DOMAIN-SUFFIX,dropbox.com,PROXY
  - DOMAIN-SUFFIX,ecosia.org,PROXY
  - DOMAIN-SUFFIX,fanatical.com,PROXY
  - DOMAIN-SUFFIX,fbcdn.net,PROXY
@@ -141,6 +143,7 @@ rules:
  - DOMAIN-SUFFIX,itch.io,PROXY
  - DOMAIN-SUFFIX,jellyfin.org,PROXY
  - DOMAIN-SUFFIX,joplinapp.org,PROXY
+ - DOMAIN-SUFFIX,libretro.com,PROXY
  - DOMAIN-SUFFIX,lin.ee,PROXY
  - DOMAIN-SUFFIX,line.me,PROXY
  - DOMAIN-SUFFIX,line.naver.jp,PROXY
@@ -154,14 +157,17 @@ rules:
  - DOMAIN-SUFFIX,my-aime.net,PROXY
  - DOMAIN-SUFFIX,nhncorp.jp,PROXY
  - DOMAIN-SUFFIX,openai.com,PROXY
+ - DOMAIN-SUFFIX,openvpn.net,PROXY
  - DOMAIN-SUFFIX,owhealth.com,PROXY
  - DOMAIN-SUFFIX,pikpak.me,PROXY
  - DOMAIN-SUFFIX,pikpakdrive.com,PROXY
+ - DOMAIN-SUFFIX,playgwent.com,PROXY
  - DOMAIN-SUFFIX,playstation.com,PROXY
  - DOMAIN-SUFFIX,playstation.net,PROXY
  - DOMAIN-SUFFIX,pokemon.com,PROXY
  - DOMAIN-SUFFIX,pokemon-home.com,PROXY
  - DOMAIN-SUFFIX,pokemon-unitepgame.com,PROXY
+ - DOMAIN-SUFFIX,proton.me,PROXY
  - DOMAIN-SUFFIX,proxy.me,PROXY
  - DOMAIN-SUFFIX,proxy.org,PROXY
  - DOMAIN-SUFFIX,pypi.org,PROXY
@@ -174,11 +180,13 @@ rules:
  - DOMAIN-SUFFIX,sega.jp,PROXY
  - DOMAIN-SUFFIX,simplex.chat,PROXY
  - DOMAIN-SUFFIX,sonyentertainmentnetwork.com,PROXY
+ - DOMAIN-SUFFIX,speedify.com,PROXY
  - DOMAIN-SUFFIX,ssrshare.com,PROXY
  - DOMAIN-SUFFIX,steamcommunity.com,PROXY
  - DOMAIN-SUFFIX,steampowered.com,PROXY
  - DOMAIN-SUFFIX,steamstatic.com,PROXY
  - DOMAIN-SUFFIX,swiftgram.app,PROXY
+ - DOMAIN-SUFFIX,syncthing.net,PROXY
  - DOMAIN-SUFFIX,t.co,PROXY
  - DOMAIN-SUFFIX,t.me,PROXY
  - DOMAIN-SUFFIX,tdesktop.com,PROXY
@@ -191,6 +199,7 @@ rules:
  - DOMAIN-SUFFIX,twimg.com,PROXY
  - DOMAIN-SUFFIX,v2ex.com,PROXY
  - DOMAIN-SUFFIX,waterfox.net,PROXY
+ - DOMAIN-SUFFIX,wireguard.com,PROXY
  - DOMAIN-SUFFIX,wordpress.com,PROXY
  - DOMAIN-SUFFIX,wr.pvp.net,PROXY
  - DOMAIN-SUFFIX,x.com,PROXY
