@@ -186,7 +186,6 @@ rules:
  - DOMAIN-SUFFIX,steampowered.com,PROXY
  - DOMAIN-SUFFIX,steamstatic.com,PROXY
  - DOMAIN-SUFFIX,swiftgram.app,PROXY
- - DOMAIN-SUFFIX,syncthing.net,PROXY
  - DOMAIN-SUFFIX,t.co,PROXY
  - DOMAIN-SUFFIX,t.me,PROXY
  - DOMAIN-SUFFIX,tdesktop.com,PROXY
