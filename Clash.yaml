@@ -108,6 +108,7 @@ rules:
  - DOMAIN,gemini.google.com,PROXY
  - DOMAIN,my.zerotier.com,PROXY
  - DOMAIN,pkgs.tailscale.com,PROXY
+ - DOMAIN,sspanel.net,PROXY
  - DOMAIN,www.bing.com,PROXY
  - DOMAIN,yt3.ggpht.com,PROXY
  - DOMAIN-SUFFIX,adtidy.org,PROXY
