@@ -178,6 +178,7 @@ rules:
  - DOMAIN-SUFFIX,riotgames.com,PROXY
  - DOMAIN-SUFFIX,rlcdn.com,PROXY
  - DOMAIN-SUFFIX,rockstargames.com,PROXY
+ - DOMAIN-SUFFIX,rsshub.app,PROXY
  - DOMAIN-SUFFIX,sega.jp,PROXY
  - DOMAIN-SUFFIX,simplex.chat,PROXY
  - DOMAIN-SUFFIX,simplex.im,PROXY
