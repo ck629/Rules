@@ -154,6 +154,7 @@ rules:
  - DOMAIN-SUFFIX,mail.com,PROXY
  - DOMAIN-SUFFIX,metacubex.one,PROXY
  - DOMAIN-SUFFIX,mega.nz,PROXY
+ - DOMAIN-SUFFIX,mega.co.nz,PROXY
  - DOMAIN-SUFFIX,mypikpak.com,PROXY
  - DOMAIN-SUFFIX,mypikpak.net,PROXY
  - DOMAIN-SUFFIX,my-aime.net,PROXY
