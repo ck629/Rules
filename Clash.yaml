@@ -163,6 +163,7 @@ rules:
  - DOMAIN-SUFFIX,openvpn.net,PROXY
  - DOMAIN-SUFFIX,owhealth.com,PROXY
  - DOMAIN-SUFFIX,patreon.com,PROXY
+ - DOMAIN-SUFFIX,patreonusercontent.com,PROXY
  - DOMAIN-SUFFIX,pikpak.me,PROXY
  - DOMAIN-SUFFIX,pikpakdrive.com,PROXY
  - DOMAIN-SUFFIX,pixeldrain.com,PROXY
