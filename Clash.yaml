@@ -143,8 +143,8 @@ rules:
  - DOMAIN-SUFFIX,ishowsapp.com,PROXY
  - DOMAIN-SUFFIX,itch.io,PROXY
  - DOMAIN-SUFFIX,jellyfin.org,PROXY
- - DOMAIN-SUFFIX,joplinapp.org,PROXY
  - DOMAIN-SUFFIX,joiplay.net,PROXY
+ - DOMAIN-SUFFIX,joplinapp.org,PROXY
  - DOMAIN-SUFFIX,libretro.com,PROXY
  - DOMAIN-SUFFIX,lin.ee,PROXY
  - DOMAIN-SUFFIX,line.me,PROXY
