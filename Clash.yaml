@@ -185,6 +185,8 @@ rules:
  - DOMAIN-SUFFIX,rlcdn.com,PROXY
  - DOMAIN-SUFFIX,rockstargames.com,PROXY
  - DOMAIN-SUFFIX,rsshub.app,PROXY
+ - DOMAIN-SUFFIX,scribd.com,PROXY
+ - DOMAIN-SUFFIX,scribdassets.com,PROXY
  - DOMAIN-SUFFIX,sega.jp,PROXY
  - DOMAIN-SUFFIX,signal.org,PROXY
  - DOMAIN-SUFFIX,simplex.chat,PROXY
