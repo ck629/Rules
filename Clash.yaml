@@ -159,6 +159,7 @@ rules:
  - DOMAIN-SUFFIX,mypikpak.com,PROXY
  - DOMAIN-SUFFIX,mypikpak.net,PROXY
  - DOMAIN-SUFFIX,my-aime.net,PROXY
+ - DOMAIN-SUFFIX,nexus-cdn.com,PROXY
  - DOMAIN-SUFFIX,nhncorp.jp,PROXY
  - DOMAIN-SUFFIX,openai.com,PROXY
  - DOMAIN-SUFFIX,openvpn.net,PROXY
