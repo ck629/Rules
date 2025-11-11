@@ -152,6 +152,7 @@ rules:
  - DOMAIN-SUFFIX,line-apps.com,PROXY
  - DOMAIN-SUFFIX,line-cdn.net,PROXY
  - DOMAIN-SUFFIX,line-scdn.net,PROXY
+ - DOMAIN-SUFFIX,linux.do,PROXY
  - DOMAIN-SUFFIX,mail.com,PROXY
  - DOMAIN-SUFFIX,metacubex.one,PROXY
  - DOMAIN-SUFFIX,mega.nz,PROXY
