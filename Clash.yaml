@@ -22,14 +22,10 @@ proxy-providers:
   type: http
   url: "https://"
   interval: 3600
-  health-check:
-   enable: true
-   interval: 1800
-   url: http://x.com
 proxy-groups:
  - name: PROXY
    type: select
-   url: http://x.com
+   url: http://gog.com
    interval: 900
    use:
     - subscription
@@ -126,6 +122,7 @@ rules:
  - DOMAIN-SUFFIX,fbsbx.com,PROXY
  - DOMAIN-SUFFIX,f-droid.org,PROXY
  - DOMAIN-SUFFIX,gog.com,PROXY
+ - DOMAIN-SUFFIX,gog-statics.com,PROXY
  - DOMAIN-SUFFIX,goo.gl,PROXY
  - DOMAIN-SUFFIX,googlevideo.com,PROXY
  - DOMAIN-SUFFIX,gravatar.com,PROXY
