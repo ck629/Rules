@@ -37,7 +37,7 @@ rule-providers:
   AntiAD:
     behavior: "domain"
     type: http
-    url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/reject.txt"
+    url: "https://anti-ad.net/clash.yaml"
     interval: 86400
     
 rules:
