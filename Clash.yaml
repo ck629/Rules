@@ -116,6 +116,7 @@ rules:
  - DOMAIN-SUFFIX,apkmirror.com,PROXY
  - DOMAIN-SUFFIX,archive.org,PROXY
  - DOMAIN-SUFFIX,bit.ly,PROXY
+ - DOMAIN-SUFFIX,cdprojektred.com,PROXY
  - DOMAIN-SUFFIX,chatgpt.com,PROXY
  - DOMAIN-SUFFIX,civitai.com,PROXY
  - DOMAIN-SUFFIX,docker.com,PROXY
