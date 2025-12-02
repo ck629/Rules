@@ -4,7 +4,7 @@
 
 【资源解析器】= https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/resource-parser.js
 
-【REJECT】= https://anti-ad.net/surge.txt
+【REJECT】= https://anti-ad.net/surge2.txt
 
 注意unblock里的域名和ip
 
