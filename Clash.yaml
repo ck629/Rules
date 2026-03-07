@@ -220,6 +220,8 @@ rules:
  - DOMAIN-KEYWORD,wikipedia,PROXY
  - DOMAIN-KEYWORD,youtube,PROXY
 
+ - IP-CIDR,10.0.0.0/8,QCSF,no-resolve
+ - IP-CIDR,192.168.22.33/32,QCSF,no-resolve
  - IP-CIDR,103.2.28.0/22,PROXY,no-resolve
  - IP-CIDR,103.4.96.0/22,PROXY,no-resolve
  - IP-CIDR,109.239.140.0/24,PROXY,no-resolve
