@@ -34,6 +34,26 @@ proxy-groups:
    use:
     - subscription
 rule-providers:
+  REJECT:
+    behavior: "domain"
+    type: http
+    url: "https://raw.githubusercontent.com/ck629/Rules/main/Clash/reject.yaml"
+  DIRECT:
+    behavior: "domain"
+    type: http
+    url: "https://raw.githubusercontent.com/ck629/Rules/main/Clash/direct.yaml"
+  PROXY:
+    behavior: "domain"
+    type: http
+    url: "https://raw.githubusercontent.com/ck629/Rules/main/Clash/proxy.yaml"
+  AI:
+    behavior: "domain"
+    type: http
+    url: "https://raw.githubusercontent.com/ck629/Rules/main/Clash/ai.yaml"
+  NSFW:
+    behavior: "domain"
+    type: http
+    url: "https://raw.githubusercontent.com/ck629/Rules/main/Clash/nsfw.yaml"
   AntiAD:
     behavior: "domain"
     type: http
@@ -41,17 +61,6 @@ rule-providers:
     interval: 86400
     
 rules:
- - DOMAIN,vs6.tjct.u3.ucweb.com,REJECT
- - DOMAIN-SUFFIX,bugfender.com,REJECT
- - DOMAIN-SUFFIX,fw4.me,REJECT
- - DOMAIN-SUFFIX,ksosoft.com,REJECT
- - DOMAIN-SUFFIX,lx.netease.com,REJECT
- - DOMAIN-SUFFIX,mmstat.com,REJECT
- - DOMAIN-SUFFIX,tanx.com,REJECT
- - DOMAIN-SUFFIX,tg.meitu.com,REJECT
- - DOMAIN-SUFFIX,ydstatic.com,REJECT
- - DOMAIN-SUFFIX,z-lib.id,REJECT
- - DOMAIN-SUFFIX,z-lib.io,REJECT
  - DOMAIN-KEYWORD,adinall,REJECT
  - DOMAIN-KEYWORD,adservice,REJECT
  - DOMAIN-KEYWORD,adsmind,REJECT
@@ -60,11 +69,9 @@ rules:
  - DOMAIN-KEYWORD,cnzz,REJECT
  - DOMAIN-KEYWORD,inmobi,REJECT
  - DOMAIN-KEYWORD,umeng,REJECT
+ - RULE-SET,REJECT,REJECT
  - RULE-SET,AntiAD,REJECT
-
- - DOMAIN,app.chat.xiaomi.net,DIRECT
- - DOMAIN-SUFFIX,music.163.com,DIRECT
- - DOMAIN-SUFFIX,music.126.net,DIRECT
+ - RULE-SET,DIRECT,DIRECT
 
  - DOMAIN-KEYWORD,singlelogin.,PROXY
  - DOMAIN-KEYWORD,z-library.,PROXY
@@ -80,7 +87,7 @@ rules:
  - DOMAIN,pokemon-webapi.appspot.com,PROXY
  - DOMAIN,sspanel.net,PROXY
  - DOMAIN,www.bing.com,PROXY
- - DOMAIN,yt3.ggpht.com,PROXY
+ - DOMAIt3.ggpht.com,PROXY
  - DOMAIN-SUFFIX,adtidy.org,PROXY
  - DOMAIN-SUFFIX,anthropic.com,PROXY
  - DOMAIN-SUFFIX,apkcombo.com,PROXY
@@ -219,6 +226,9 @@ rules:
  - DOMAIN-KEYWORD,twitter,PROXY
  - DOMAIN-KEYWORD,wikipedia,PROXY
  - DOMAIN-KEYWORD,youtube,PROXY
+ - RULE-SET,PROXY,PROXY
+ - RULE-SET,AI,PROXY
+ - RULE-SET,NSFW,PROXY
 
  - IP-CIDR,10.0.0.0/8,QCSF,no-resolve
  - IP-CIDR,192.168.22.33/32,QCSF,no-resolve
