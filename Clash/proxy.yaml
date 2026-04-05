@@ -12,6 +12,8 @@ payload:
   - '+.apkcombo.com'
   - '+.apkmirror.com'
   - '+.bit.ly'
+  - '+.bsky.app'
+  - '+.bsky.network'
   - '+.bsky.social'
   - '+.catbox.moe'
   - '+.cdprojektred.com'
