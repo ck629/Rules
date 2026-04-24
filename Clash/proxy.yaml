@@ -59,6 +59,7 @@ payload:
   - '+.linux.do'
   - '+.mail.com'
   - '+.mas.to'
+  - '+.mastodon.online'
   - '+.mastodon.social'
   - '+.metacubex.one'
   - '+.mega.io'
