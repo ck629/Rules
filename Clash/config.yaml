@@ -106,8 +106,7 @@ rules:
  - IP-CIDR,125.209.208.0/20,PROXY,no-resolve
  - IP-CIDR,125.6.146.0/24,PROXY,no-resolve
  - IP-CIDR,125.6.149.0/24,PROXY,no-resolve
- - IP
- IP-CIDR,95.161.64.0/20,PROXY,no-resolve-CIDR,125.6.190.0/24,PROXY,no-resolve
+ - IP-CIDR,125.6.190.0/24,PROXY,no-resolve
  - IP-CIDR,129.134.0.0/17,PROXY,no-resolve
  - IP-CIDR,146.235.200.246/32,PROXY,no-resolve
  - IP-CIDR,149.154.0.0/16,PROXY,no-resolve
