@@ -92,8 +92,6 @@ payload:
   - '+.pythonhosted.org'
   - '+.redd.it'
   - '+.redgifs.com'
-  - '+.rednote.com'
-  - '+.rednotecdn.com'
   - '+.riotcdn.net'
   - '+.riotgames.com'
   - '+.rlcdn.com'
@@ -145,3 +143,8 @@ payload:
   - '+.mastodon.online'
   - '+.mas.to'
   - '+.mstdn.social'
+# RedNote
+  - '+.rednote.com'
+  - '+.rednotecdn.com'
+  - '+.rnote.com'
+  - '+.xiaohongshu.com'
