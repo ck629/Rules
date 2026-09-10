@@ -21,6 +21,16 @@ dns:
   - '+.local'
 hosts:
  'api.dalaie.com': '127.0.0.1'
+proxies:
+ - name: TAILSCALE
+   type: tailscale
+   hostname: cmfa
+   auth-key: tskey-auth-XXXXXXXX
+   control-url: https://controlplane.tailscale.com
+   state-dir: ./tailscale
+   ephemeral: false
+   accept-routes: true
+   ip-version: ipv4-prefer
 proxy-providers:
  subscription:
   type: http
