@@ -43,6 +43,8 @@ proxy-groups:
    interval: 900
    use:
     - subscription
+   proxies:
+    - TAILSCALE
 rule-providers:
   REJECT:
     behavior: "domain"
