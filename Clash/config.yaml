@@ -22,7 +22,7 @@ dns:
 hosts:
  'api.dalaie.com': '127.0.0.1'
 proxies:
- - name: TAILSCALE
+ - name: TAILNET
    type: tailscale
    hostname: cmfa
    auth-key: tskey-auth-XXXXXXXX
@@ -44,7 +44,7 @@ proxy-groups:
    use:
     - subscription
    proxies:
-    - TAILSCALE
+    - TAILNET
 rule-providers:
   REJECT:
     behavior: "domain"
@@ -73,7 +73,7 @@ rule-providers:
     interval: 86400
     
 rules:
- - IP-CIDR,100.66.17.0/24,TAILSCALE,no-resolve
+ - IP-CIDR,100.66.17.0/24,TAILNET,no-resolve
  - RULE-SET,DIRECT,DIRECT
  - RULE-SET,REJECT,REJECT
  - RULE-SET,AntiAD,REJECT
@@ -107,8 +107,8 @@ rules:
  - DOMAIN-KEYWORD,zlibrary-,PROXY
  - DOMAIN-KEYWORD,z-library.,PROXY
  - DOMAIN-KEYWORD,1lib.,PROXY
- - IP-CIDR,10.0.0.0/8,QCSF,no-resolve
- - IP-CIDR,192.168.22.33/32,QCSF,no-resolve
+ - IP-CIDR,10.0.0.0/8,TAILNET,no-resolve
+ - IP-CIDR,192.168.22.33/32,TAILNET,no-resolve
  - IP-CIDR,103.2.28.0/22,PROXY,no-resolve
  - IP-CIDR,103.4.96.0/22,PROXY,no-resolve
  - IP-CIDR,109.239.140.0/24,PROXY,no-resolve
