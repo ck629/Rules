@@ -73,7 +73,6 @@ rule-providers:
     interval: 86400
     
 rules:
- - IP-CIDR,100.66.17.0/24,TAILNET,no-resolve
  - RULE-SET,DIRECT,DIRECT
  - RULE-SET,REJECT,REJECT
  - RULE-SET,AntiAD,REJECT
@@ -107,6 +106,7 @@ rules:
  - DOMAIN-KEYWORD,zlibrary-,PROXY
  - DOMAIN-KEYWORD,z-library.,PROXY
  - DOMAIN-KEYWORD,1lib.,PROXY
+ - IP-CIDR,100.66.17.0/24,TAILNET,no-resolve
  - IP-CIDR,10.0.0.0/8,TAILNET,no-resolve
  - IP-CIDR,192.168.22.33/32,TAILNET,no-resolve
  - IP-CIDR,103.2.28.0/22,PROXY,no-resolve
