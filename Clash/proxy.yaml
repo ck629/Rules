@@ -5,6 +5,7 @@ payload:
   - 'my.zerotier.com'
   - 'pkgs.tailscale.com'
   - 'pokemon-webapi.appspot.com'
+  - 'proxy.golang.org'
   - 'sspanel.net'
   - 'www.bing.com'
   - 'yt3.ggpht.com'
