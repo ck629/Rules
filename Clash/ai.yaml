@@ -4,6 +4,7 @@ payload:
   - '+.anthropic.com'
   - '+.byteoversea.com'
   - '+.ciciai.com'
+  - '+.civitai.com'
   - '+.civitai.red'
   - '+.chatgpt.com'
   - '+.claude.ai'
