@@ -1,4 +1,5 @@
 payload:
+  - 'access.mypikpak.com'
   - 'api.ipify.org'
   - 'dl.tailscale.com'
   - 'meta.appinn.net'
