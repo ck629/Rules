@@ -89,6 +89,7 @@ payload:
   - '+.proxy.org'
   - '+.pypi.org'
   - '+.pythonhosted.org'
+  - '+.pximg.net'
   - '+.redd.it'
   - '+.redgifs.com'
   - '+.riotcdn.net'
