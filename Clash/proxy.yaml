@@ -126,6 +126,7 @@ payload:
   - '+.tumblr.com'
   - '+.twimg.com'
   - '+.vivaldi.com'
+  - '+.vivaldi.net'
   - '+.v2ex.com'
   - '+.waterfox.net'
   - '+.wireguard.com'
@@ -144,7 +145,3 @@ payload:
   - '+.mastodon.online'
   - '+.mas.to'
   - '+.mstdn.social'
-# RedNote
-  - '+.rednote.com'
-  - '+.rednotecdn.com'
-  - '+.rnote.com'
